@@ -1,4 +1,16 @@
 
+#header {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+}
+#header h1 {
+    color: var(--bs-primary);
+    padding: 0;
+    margin: 0;
+}
+
 #soundboard {
     display: grid;
     gap: 10px;
