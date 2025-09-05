@@ -21,6 +21,8 @@ audioData.forEach(a => {
 
   let audioBtn = document.createElement("button");
   audioBtn.innerHTML = a.title;
+  audioBtn.type = "button"; // For Bootstrap
+  audioBtn.classList.add("btn", "btn-outline-primary", "audio-button"); // "btn" and "btn-outline-primary" are from Bootstrap
   audioBtn.onclick = () => {
     audioNode.cloneNode().play()
   }

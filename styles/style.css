@@ -1,0 +1,12 @@
+
+#soundboard {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, 150px);
+    justify-content: center;
+}
+
+.audio-button {
+    height: 100px;
+    font-weight: bold;
+}
