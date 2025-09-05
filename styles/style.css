@@ -1,9 +1,17 @@
 
 #header {
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
     background-color: lightgrey;
+    border-bottom: 4px solid var(--bs-primary);
+}
+#header img {
+    height: 200px;
 }
 #header h1 {
     color: var(--bs-primary);
